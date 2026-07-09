@@ -140,7 +140,7 @@ footer {
 
 
 
-/* -- Responsive Tablette et petits écrans -- */
+/* Responsive Tablette (et petits écrans) */
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
     .header-container {
         flex-direction: row;
@@ -162,7 +162,7 @@ footer {
     }
 }
 
-/* -- Responsive Laptop et plus selon les instructions d'Euloge -- */
+/* Responsive Laptop et plus selon les instructions d'Euloge */
 @media only screen and (min-width: 1281px) {
     .header-container {
         display: flex;
@@ -185,6 +185,5 @@ footer {
         gap: 30px;
     }
 }
-
 
 /* Ajoute ta section ici*/
