@@ -3,72 +3,279 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/equipes.css">
+    <!-- le titre -->
     <title>CongoDev - Fournisseur N 1 de service en ligne dans le bassin du Congo </title>
+    <!-- le fichier style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- importation de la police google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!-- Importation de la bibliotheque fontawesome utilisée pour les icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <header>
-      <div class="header-container">
-        <div class="logo">
-            <h1>Congo Digital Solutions</h1>
-        </div>
-        <div class="navbar">
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="../pages/accueil.html">accueil</a></li>
-                    <li><a href="./pages/actions.html">actions</a></li>
-                    <li><a href="./pages/equipes.html">equipes</a></li>
-                    <li><a href="./pages/contacts.html">contacts</a></li>
+    <!-- EN-TÊTE -->
+    <header class="en-tete">
+        <div class="conteneur">
+            <nav class="navigation">
+                <a href="#" class="logo">
+                    CongoDev
+                </a>
+                <ul class="liste-navigation">
+                    <li><a href="#" class="lien-navigation actif">Accueil</a></li>
+                    <li><a href="pages/actions.html" class="lien-navigation">Actions</a></li>
+                    <li><a href="pages/equipes.html" class="lien-navigation">Équipe</a></li>
+                    <li><a href="pages/contacts.html" class="lien-navigation">Contact</a></li>
                 </ul>
+                <a href="pages/contacts.html" class="bouton bouton-primaire">Démarrer un projet</a>
             </nav>
         </div>
-        <button type="button" class="btn-primary">Démarrer un project</button>
-      </div>
     </header>
 
-    <main>
+    <!-- CONTENU PRINCIPAL -->
+    <main id="contenu-principal" class="contenu-principal">
+        <!-- HERO -->
+        <section class="hero">
+            <div class="conteneur">
+                <div class="contenu-hero">
+                    <div class="texte-hero">
+                        <h1>Expertise Logicielle au Cœur de l'Afrique</h1>
+                        <p>Nous transformons vos idées en solutions numériques innovantes pour booster votre croissance. Conception, développement et déploiement de vos outils de demain.</p>
+                        <div class="boutons-hero">
+                            <a href="#services" class="bouton bouton-primaire bouton-grand">
+                                Découvrir nos services
+                            </a>
+                            <a href="#contact" class="bouton bouton-contour bouton-grand">Nous contacter</a>
+                        </div>
+                    </div>
+                    <div class="image-hero"></div>
+                </div>
+            </div>
+        </section>
 
-   
+        <!-- STATISTIQUES -->
+        <section class="statistiques">
+            <div class="conteneur">
+                <h2 class="titre-invisible">Nos chiffres clés</h2>
+                <div class="grille grille-4">
+                    <div class="carte-stat area-stat1">
+                        <div class="nombre">+50</div>
+                        <div class="libelle">Projets</div>
+                    </div>
+                    <div class="carte-stat area-stat2">
+                        <div class="nombre">20</div>
+                        <div class="libelle">Clients</div>
+                    </div>
+                    <div class="carte-stat area-stat3">
+                        <div class="nombre">5 ans</div>
+                        <div class="libelle">Expérience</div>
+                    </div>
+                    <div class="carte-stat area-stat4">
+                        <div class="nombre">98%</div>
+                        <div class="libelle">Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- SERVICES -->
+        <section id="services" class="services">
+            <div class="conteneur">
+                <div class="en-tete-section">
+                    <h2>Nos Solutions Digitales</h2>
+                    <p>Une gamme complète de services pour digitaliser votre entreprise avec les meilleurs standards de qualité.</p>
+                </div>
+                <div class="grille grille-services">
+                    <article class="carte carte-web area-web">
+                        <div class="contenu-carte">
+                            <div class="icone-carte">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <h3>Développement Web</h3>
+                            <p>Sites vitrines, e-commerce et applications web complexes optimisés pour la performance et le SEO.</p>
+                            <ul class="liste-points">
+                                <li><i class="fa-brands fa-react"></i> React, Next.js, Node.js</li>
+                                <li><i class="fa-solid fa-cloud"></i> Architecture Cloud</li>
+                            </ul>
+                        </div>
+                        <div class="image-carte" ></div>
+                    </article>
+                    <article class="carte carte-mobile area-mobile">
+                        <div class="contenu-carte">
+                            <div class="icone-carte">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+                            <h3>App Mobile</h3>
+                            <p>Expériences mobiles natives et hybrides pour iOS et Android avec une UX irréprochable.</p>
+                        </div>
+                        <div class="icone-grand">
+                            <i class="fa-solid fa-mobile"></i>
+                        </div>
+                    </article>
+                    <article class="carte carte-logiciel area-logiciel">
+                        <div class="contenu-carte">
+                            <div class="icone-carte">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <h3>Logiciels Métiers</h3>
+                            <p>Logiciels sur mesure pour automatiser vos processus : ERP, CRM, Gestion de stock, RH.</p>
+                        </div>
+                    </article>
+                    <article class="carte carte-maintenance area-maintenance">
+                        <div class="contenu-carte">
+                            <div class="icone-carte">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <h3>Infogérance & Maintenance</h3>
+                            <p>Un support technique réactif et une maintenance évolutive pour assurer la pérennité de vos outils.</p>
+                        </div>
+                        <div class="icone-rond">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
+        <!-- POURQUOI NOUS -->
+        <section class="pourquoi">
+            <div class="conteneur">
+                <div class="contenu-pourquoi">
+                    <div class="grille grille-avantages">
+                        <article class="carte-avantages area-av1">
+                            <i class="fa-solid fa-certificate"></i>
+                            <h4>Expertise</h4>
+                            <p>Une équipe d'ingénieurs seniors passionnés par les dernières technologies.</p>
+                        </article>
+                        <article class="carte-avantages area-av2">
+                            <i class="fa-solid fa-medal"></i>
+                            <h4>Accompagnement</h4>
+                            <p>Nous sommes votre partenaire stratégique du conseil au déploiement.</p>
+                        </article>
+                        <article class="carte-avantages area-av3">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            <h4>Sur Mesure</h4>
+                            <p>Chaque solution est unique et adaptée précisément à vos besoins métiers.</p>
+                        </article>
+                        <article class="carte-avantages area-av4">
+                            <i class="fa-solid fa-clock"></i>
+                            <h4>Délais</h4>
+                            <p>Respect rigoureux des délais grâce à nos méthodologies agiles éprouvées.</p>
+                        </article>
+                    </div>
+                    <div class="texte-pourquoi">
+                        <h2>Pourquoi faire confiance à CongoDev ?</h2>
+                        <p>Dans un monde digital en constante évolution, nous vous offrons la stabilité technique et l'agilité nécessaire pour dominer votre marché. Notre ancrage local au Congo-Brazzaville nous permet de comprendre vos défis spécifiques tout en appliquant des standards de qualité internationaux.</p>
+                        <a href="#apropos" class="bouton bouton-primaire">En savoir plus sur nous</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- TÉMOIGNAGES -->
+        <section class="temoignages">
+            <div class="conteneur">
+                <div class="en-tete-section">
+                    <h2>Ce que disent nos clients</h2>
+                    <p>La réussite de nos clients est notre meilleure publicité.</p>
+                </div>
+                <div class="grille grille-3">
+                    <article class="carte-temoignage area-tem1">
+                        <div class="etoiles">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>"CongoDev a totalement transformé notre système de gestion interne. Leur réactivité et leur compréhension de nos enjeux logistiques au Congo ont fait toute la différence."</p>
+                        <div class="auteur">
+                            <div class="avatar"></div>
+                            <div>
+                                <div class="nom">Jean-Pierre M.</div>
+                                <div class="role">Directeur Logistique, TransKongo</div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="carte-temoignage area-tem2">
+                        <div class="etoiles">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>"Nous avons lancé notre application mobile avec eux en un temps record. L'UX est exceptionnelle et nos utilisateurs adorent la simplicité de l'interface."</p>
+                        <div class="auteur">
+                            <div class="avatar"></div>
+                            <div>
+                                <div class="nom">Sarah O.</div>
+                                <div class="role">CEO, BrazzaConnect</div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="carte-temoignage area-tem3">
+                        <div class="etoiles">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>"Leur service de maintenance est impeccable. Depuis qu'ils gèrent nos serveurs, nous n'avons subi aucune interruption de service majeure."</p>
+                        <div class="auteur">
+                            <div class="avatar"></div>
+                            <div>
+                                <div class="nom">Patrick N.</div>
+                                <div class="role">DSI, Finance Plus Congo</div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta">
+            <div class="conteneur">
+                <div class="carte-cta">
+                    <h2>Prêt à lancer votre projet ?</h2>
+                    <p>Contactez-nous aujourd'hui pour une consultation gratuite et un devis personnalisé adapté à vos ambitions.</p>
+                    <a href="#contact" class="bouton bouton-secondaire bouton-grand">Démarrer maintenant</a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-        <div class="footer-container">
-    
-            <div class="footer-column brand-column">
-            <h2>Congo Digital Solutions</h2>
-            <p>Expertise logicielle de premier plan au Congo-Brazzaville. Nous construisons le futur numérique de l'Afrique.</p>
-            
-            </div>
 
-            <div class="footer-column">
-            <h3>Liens Rapides</h3>
-            <ul>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Équipe</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <!-- PIED DE PAGE -->
+    <footer class="pied-de-page">
+        <div class="conteneur">
+            <div class="grille grille-pied">
+                <div class="section-pied area-pied1">
+                    <a href="#" class="logo" style="color: white;">
+                        CongoDev
+                    </a>
+                    <p>L'expertise logicielle de haut niveau pour les entreprises visionnaires au Congo-Brazzaville.</p>
+                </div>
+                <div class="section-pied area-pied2">
+                    <h4>Liens Rapides</h4>
+                    <ul class="liste-liens">
+                        <li><a href="pages/actions.html">Actions</a></li>
+                        <li><a href="pages/equipes.html">Équipe</a></li>
+                        <li><a href="pages/contacts.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="section-pied area-pied3">
+                    <h4>Légal</h4>
+                    <ul class="liste-liens">
+                        <li><a href="#">Mentions Légales</a></li>
+                        <li><a href="#">Politique de Confidentialité</a></li>
+                    </ul>
+                    <p class="copyright">&copy; 2026 CongoDev. Tous droits réservés.</p>
+                </div>
             </div>
-
-            <div class="footer-column">
-            <h3>Légal</h3>
-            <ul>
-                <li><a href="#">Mentions Légales</a></li>
-                <li><a href="#">Politique de Confidentialité</a></li>
-            </ul>
-            </div>
-
         </div>
-
-        <div class="footer-bottom">
-            <p>&copy; 2026 Congo Digital Solutions. Tous droits réservés. Expertise logicielle au Congo-Brazzaville.</p>
-        </div>
-
     </footer>
 </body>
 </html>
