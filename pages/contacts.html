@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">    
     <title>Contactez-nous | CongoDev</title>
     <!-- importation de la police google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +35,77 @@
     
         <!-- CONTENU PRINCIPAL -->
         <main id="contenu-principal" class="contenu-principal">
+            <section class="presentation">
+            <h2>Parlons de votre prochain projet <span class="text-blue">digital</span></h2>
+           <p>Notre expertise logicielle au service de votre croissance. Contactez notre équipe à Brazzaville pour
+            transformer vos idées en solutions performantes.
+           </p>
 
+        </section>
+        <!-- Sidebar -->
+         <div class="grid-container">
+        <section class="info">
+            <div class="container">
+                <div class="card">
+                    <h3>Notre Bureau</h3>
+                    <p>Avenue de la Paix, Poto-Poto Brazzaville, République du Congo</p>
+
+                </div>
+                <div class="card">
+                    <h3>Téléphone</h3>
+                    <p>+242 06 656 70 64</p>
+                    <p>Lun-Ven, 8h-17h</p>
+                </div>
+                <div class="card">
+                    <h3>E-mail</h3>
+                    <p>contact@CongoDev.cg</p>
+                    <p>support@CongoDev.cg</p>
+                </div>
+                <div class="card">
+                    <img src="image/gps.jpg" alt="Carte de localisation du bureau" class="map">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Right-->
+         <section class="contact">
+            <h2>Envoyez-nous un message</h2>
+            <p>Remplissez le formulaire ci-dessous et notre équipe vous contactera sous 24 heures.</p>
+            <fieldset>
+                <legend>Formulaire de contact</legend>
+                <form action="" >
+                    <div class="form-row">
+                    <div class="input-group">
+
+                      <label for="name">Nom:</label>
+                     <input type="text" id="name" name="name" placeholder="MOUSSANA" required>
+                    </div>
+                    
+                    <div class="input-group">
+
+                      <label for="email">E-mail:</label>
+                      <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                    </div>
+                    </div>
+
+                    <div class="input-group">
+                      <label for="subject">Sujet du Projet:</label>
+                      <input type="text" id="subject" name="subject" placeholder="Développement logiciel" required>
+                    </div>
+                    <div class="input-group">
+
+                       <label for="message">Détails de votre message :</label> <br> 
+                       <textarea id="message" name="message" rows="5" placeholder="Décrivez brièvement votre projet..." required></textarea>
+                    </div>
+
+                    <button type="submit">Envoyer le message</button>
+                </form>
+
+            </fieldset>
+
+         </section>
+        </div>
         </main>
     
         <!-- PIED DE PAGE -->
