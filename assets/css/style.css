@@ -1,6 +1,3 @@
-/* ==============================================================
-                          RESET ET BASE
-============================================================== */
 * {
     margin: 0;
     padding: 0;
@@ -46,7 +43,7 @@ ul, ol {
                           EN-TÊTE
 ============================================================== */
 .en-tete {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -202,7 +199,7 @@ ul, ol {
                           CONTENU PRINCIPAL
 ============================================================== */
 .contenu-principal {
-    padding-top: 4.5rem;
+    /* padding-top: 4.5rem; */
 }
 
 .lien-sauter {
@@ -895,23 +892,4 @@ ul, ol {
     margin-top: 2rem;
     padding-top: 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* ==============================================================
-                          IMPRESSION
-============================================================== */
-@media print {
-    .en-tete, .pied-de-page, .bouton {
-        display: none !important;
-    }
-    .contenu-principal {
-        padding-top: 0;
-    }
-    body {
-        background: white;
-        color: black;
-    }
-    a {
-        text-decoration: underline;
-    }
 }
