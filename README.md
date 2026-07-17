@@ -11,17 +11,14 @@ Ce projet a été réalisé dans le cadre de la rotation S5 d'Akieni Academy. Il
 ## Thème du Projet
 
 **Type de projet :**
-- Site vitrine associatif / ONG
-
-**Thème choisi :**
-> À compléter par le groupe
+- Site vitrine
 
 ---
 
 ## Nom du Groupe
 
 **Nom du groupe :**
-> À compléter
+>  ReforestKongo Projet 3 G11
 
 ---
 
@@ -59,6 +56,9 @@ Ce projet a été réalisé dans le cadre de la rotation S5 d'Akieni Academy. Il
 ├── assets/
 │   ├── css/
 │   │   └── style.css
+│   │   └── action.css
+│   │   └── evenements.css
+│   │   └── contacts.css
 │   └── images/
 ├── README.md
 └── .gitignore
@@ -163,7 +163,7 @@ Le projet est déployé avec GitHub Pages.
 
 **Lien du site :**
 
-> À ajouter après le premier déploiement
+> [ReforestKongo](https://Christian-ITtech.github.io/CongoDev_G11project3_S)
 
 ---
 
@@ -171,49 +171,4 @@ Le projet est déployé avec GitHub Pages.
 
 **Lien du dépôt :**
 
-> À compléter
-
----
-
-## Conflit de Merge Rencontré
-
-### Description
-
-> À compléter pendant le projet
-
-### Cause
-
-> À compléter
-
-### Solution appliquée
-
-> À compléter
-
----
-
-## Répartition des Tâches
-
-| Tâche | Responsable |
-|---------|---------|
-| Structure HTML | |
-| Navigation | |
-| Responsive Design | |
-| Mise en page Grid | |
-| Mise en page Flexbox | |
-| Documentation | |
-| Déploiement GitHub Pages | |
-
----
-
-## Critères Techniques Respectés
-
-- [ ] Utilisation correcte des balises sémantiques HTML5
-- [ ] Présence d'au moins une section Flexbox
-- [ ] Présence d'au moins une section Grid
-- [ ] Responsive Mobile
-- [ ] Responsive Tablette
-- [ ] Responsive Desktop
-- [ ] Utilisation de Git et GitHub
-- [ ] Pull Request par membre
-- [ ] Conflit Git documenté
-- [ ] Déploiement GitHub Pages
+> [ReforestKongo](https://github.com/Christian-ITtech/CongoDev_G11project3_S5)
