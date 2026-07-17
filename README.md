@@ -1,4 +1,4 @@
-# P2-reforestkongo-S5
+# CongoDev
 
 ## Présentation
 
@@ -18,7 +18,7 @@ Ce projet a été réalisé dans le cadre de la rotation S5 d'Akieni Academy. Il
 ## Nom du Groupe
 
 **Nom du groupe :**
->  ReforestKongo Projet 3 G11
+>  CongoDev Projet 3 G11
 
 ---
 
@@ -163,7 +163,7 @@ Le projet est déployé avec GitHub Pages.
 
 **Lien du site :**
 
-> [ReforestKongo](https://Christian-ITtech.github.io/CongoDev_G11project3_S)
+> [CongoDev](https://Christian-ITtech.github.io/CongoDev_G11project3_S)
 
 ---
 
@@ -171,4 +171,4 @@ Le projet est déployé avec GitHub Pages.
 
 **Lien du dépôt :**
 
-> [ReforestKongo](https://github.com/Christian-ITtech/CongoDev_G11project3_S5)
+> [CongoDev](https://github.com/Christian-ITtech/CongoDev_G11project3_S5)
